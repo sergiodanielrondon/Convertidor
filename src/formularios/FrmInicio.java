@@ -11,6 +11,8 @@ package formularios;
 public class FrmInicio extends javax.swing.JFrame {
     
     FrmMenu frmMenu = new FrmMenu();
+    FrmMenu2 frmMenu2 = new FrmMenu2();
+    
     
     public FrmInicio() {
         initComponents();
@@ -56,7 +58,7 @@ public class FrmInicio extends javax.swing.JFrame {
         jLabel3.setText("Selecciona porfavor uno de nuestros dos convertidores");
 
         jButton2.setFont(new java.awt.Font("Eras Bold ITC", 0, 12)); // NOI18N
-        jButton2.setText("OTHER");
+        jButton2.setText("DECIMAL/BINARIO");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -104,7 +106,8 @@ public class FrmInicio extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
+        frmMenu2.setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
