@@ -41,6 +41,7 @@ public class DecimalaBinario extends javax.swing.JPanel {
         jLabel2.setFont(new java.awt.Font("Eras Bold ITC", 0, 12)); // NOI18N
         jLabel2.setText("Ingresa un decimal");
 
+        txtValor.setFont(new java.awt.Font("Eras Bold ITC", 0, 12)); // NOI18N
         txtValor.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 txtValorKeyTyped(evt);
@@ -90,7 +91,7 @@ public class DecimalaBinario extends javax.swing.JPanel {
                         .addComponent(txtValor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(btnConvertir, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(lblValor, javax.swing.GroupLayout.DEFAULT_SIZE, 46, Short.MAX_VALUE)
+                .addComponent(lblValor, javax.swing.GroupLayout.DEFAULT_SIZE, 48, Short.MAX_VALUE)
                 .addContainerGap())
         );
     }// </editor-fold>//GEN-END:initComponents

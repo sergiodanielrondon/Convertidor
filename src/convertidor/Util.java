@@ -48,5 +48,18 @@ public class Util {
         String respuesta = new StringBuilder(lista).reverse().toString();
         return respuesta;
     }
-
+    
+    public int aDecimal(String binario){
+        int potencia = 1;
+        int resultado = 0;
+        String binario2 = new StringBuilder(binario).reverse().toString();
+        for(int i = 0; i < binario2.length(); i++) { 
+            char c = binario2.charAt(i);
+            int multiplicados = potencia * Character.getNumericValue(c);
+            potencia *= 2;
+            resultado += multiplicados;
+        }
+        
+        return resultado;    
+    }
 }

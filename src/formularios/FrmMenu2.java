@@ -54,6 +54,11 @@ public class FrmMenu2 extends javax.swing.JFrame {
 
         jButton1.setFont(new java.awt.Font("Eras Bold ITC", 0, 12)); // NOI18N
         jButton1.setText("<html><center>Binario a<br> Decimal</center></html>");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         jButton2.setFont(new java.awt.Font("Eras Bold ITC", 0, 12)); // NOI18N
         jButton2.setText("<html><center>Decimal a<br> Binario</center></html>");
@@ -147,6 +152,14 @@ public class FrmMenu2 extends javax.swing.JFrame {
         revalidate();
         repaint();
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        dab.setVisible(false);
+        bad.setVisible(true);
+        esp2.setVisible(false);
+        revalidate();
+        repaint();
+    }//GEN-LAST:event_jButton1ActionPerformed
     
     @Override
     public void show(){
