@@ -49,4 +49,7 @@ obtendras el valor en decimal.
 # :door:Acceso al proyecto
 
 Desde [acá](https://github.com/sergiodanielrondon/Convertidor.git) puedes acceder a los archivos del proyecto
+
 Desde [acá](https://github.com/sergiodanielrondon/Convertidor/archive/refs/heads/master.zip) puedes descargar el proyecto
+
+# :wrench:Tecnologías utilizadas
