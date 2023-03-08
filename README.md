@@ -53,3 +53,6 @@ Desde [acá](https://github.com/sergiodanielrondon/Convertidor.git) puedes acced
 Desde [acá](https://github.com/sergiodanielrondon/Convertidor/archive/refs/heads/master.zip) puedes descargar el proyecto
 
 # :wrench:Tecnologías utilizadas
+:wrench:`Java`
+:wrench:`JDK-19`
+:wrench:`Apache NetBeans IDE 16`
