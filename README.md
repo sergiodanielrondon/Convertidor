@@ -52,6 +52,8 @@ Desde [acá](https://github.com/sergiodanielrondon/Convertidor.git) puedes acced
 
 Desde [acá](https://github.com/sergiodanielrondon/Convertidor/archive/refs/heads/master.zip) puedes descargar el proyecto
 
+Se debe abrir con Apache NetBeans y ejecutar la clase Convertidor
+
 # :wrench:Tecnologías utilizadas
 :wrench:`Java`
 :wrench:`JDK-19`
