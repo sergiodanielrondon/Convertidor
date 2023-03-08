@@ -48,4 +48,4 @@ obtendras el valor en decimal.
 
 # :door:Acceso al proyecto
 
-Desde [acá](https://github.com/juankxxD/conversorMonedas) puedes acceder a los archivos del proyecto
+Desde [acá](https://github.com/sergiodanielrondon/Convertidor.git) puedes acceder a los archivos del proyecto
